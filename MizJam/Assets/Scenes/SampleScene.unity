@@ -2404,7 +2404,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9
+  orthographic size: 9.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -14236,7 +14236,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1206389291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 5850122b664597d4ebf23480f87aed89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -14247,9 +14247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>Jeff</b>
-
-    <i>Jeff</i>'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a63fd2d99c66f584a96997a0c00a65e3, type: 2}
   m_sharedMaterial: {fileID: 4382857151178121960, guid: a63fd2d99c66f584a96997a0c00a65e3, type: 2}
@@ -14271,13 +14269,13 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 7
+  m_fontSizeBase: 7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14312,14 +14310,27 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.2740049, y: 7.342332, z: -3.7211142, w: -6.2426414}
+  m_margin: {x: 1.4717636, y: 7.159639, z: -4.080799, w: -5.7544756}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1206389294}
   m_maskType: 0
-  _SortingLayerID: 1316504713
+  _SortingLayerID: 0
   _SortingOrder: 0
+  speed: 10
+  onEmotionChange:
+    m_PersistentCalls:
+      m_Calls: []
+  onAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onTextReveal:
+    m_PersistentCalls:
+      m_Calls: []
+  onDialogueFinish:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!23 &1206389294
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20741,6 +20752,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 213ff46174e654942938f9f17dc1d687, type: 2}
   - {fileID: 11400000, guid: ac20791d73899744b9d3b11c98200583, type: 2}
   - {fileID: 11400000, guid: 0cbd49a2b56821e4eaed1dff65dfe251, type: 2}
+  - {fileID: 11400000, guid: 23260798199ef3e41b2ee43df4e5aafa, type: 2}
 --- !u!1 &1716229705
 GameObject:
   m_ObjectHideFlags: 0

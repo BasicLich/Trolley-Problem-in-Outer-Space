@@ -14,7 +14,7 @@ namespace TMPro
 
     [System.Serializable] public class DialogueEvent : UnityEvent { }
 
-    public class TMP_Animated : TextMeshProUGUI
+    public class TMP_Animated : TextMeshPro
     {
 
         [SerializeField] private float speed = 10;

@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: 
   conversationBlocks:
-  - A transport vessel flies with a speed of multiple light years, inching ever so
-    close to an undisclosed destination.
-  - There are 10 souls on board, though not a single voice can be heard inside the
-    cold hallways of the deck.
-  - Everyone has been sound asleep inside their cryosleep pods for what could have
-    been centuries.
-  conversationIndex: 2
+  - <speed=10>A transport vessel flies with a speed of multiple light years, inching
+    ever so close to an undisclosed destination.
+  - <speed=20>There are 10 souls on board, though not a single voice can be heard
+    inside the cold hallways of the deck.
+  - <speed=20>Everyone has been sound asleep inside their cryosleep pods for what
+    could have been centuries.

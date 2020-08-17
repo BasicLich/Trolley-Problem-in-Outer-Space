@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: int
   conversationBlocks:
-  - 'Pay no mind to him, '
-  - 
-  - 
+  - Pay no mind to <b>Anger</b>, he can get quite heated over these matters.
+  - He's in charge of the weapons systems and shields us from outside danger.
+  - 'I''m the <b>Intelligence Core</b>, and I run most of the things around here: '
+  - Maintenance of ship utilities, major communications...
+  - 'But most important of all, I tend to the cryosleep pods on-board and insure
+    our primary objective:'
+  - <i>Survival of <b>all</b> human subjects</i>

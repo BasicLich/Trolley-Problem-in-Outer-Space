@@ -6,7 +6,7 @@ using UnityEngine;
 public class Interface : MonoBehaviour
 {
     public TextMeshPro speakerComponent;
-    public TextMeshPro textComponent;
+    public TMP_Animated textComponent;
 
     public GameObject[] icons;
     public GameObject arrow;
@@ -19,6 +19,7 @@ public class Interface : MonoBehaviour
 
     void Start()
     {
+        // Disabling icons
         for (int i = 0; i < 4; i++) icons[i].SetActive(false);
         arrow.SetActive(false);
 
@@ -122,6 +123,6 @@ public class Interface : MonoBehaviour
 
     void updateText(string text)
     {
-        textComponent.text = text;
+        textComponent.ReadText(text);
     }
 }
