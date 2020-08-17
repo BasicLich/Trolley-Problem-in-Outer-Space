@@ -12,50 +12,66 @@ public class Interface : MonoBehaviour
     public GameObject arrow;
 
     public DialogueData[] story;
-    int currentDialogue;
+    List<string> conversation;
+    string speaker;
+    int dialogueIndex;
+    int conversationIndex;
 
-    // Start is called before the first frame update
     void Start()
     {
-        currentDialogue = 0;
-
         for (int i = 0; i < 4; i++) icons[i].SetActive(false);
         arrow.SetActive(false);
 
+        conversationIndex = 0;
+        dialogueIndex = 0;
+        conversation = story[dialogueIndex].getConversation();
+        speaker = story[dialogueIndex].getSpeaker();
         updateDialogue();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Clicked");
-            updateDialogue();
+            nextConversation();
         }
     }
 
     void nextDialogue()
     {
-        currentDialogue++;
+        dialogueIndex++;
+        conversation = story[dialogueIndex].getConversation();
+        speaker = story[dialogueIndex].getSpeaker();
         updateDialogue();
     }
 
-    void setIcon(int index)
+    void nextConversation()
     {
-        for(int i = 0; i < 4; i++)
+        if (conversationIndex == conversation.Count - 1) //Last conversation block, load next dialogue
         {
-            if (i == index) icons[i].SetActive(true);
-            else            icons[i].SetActive(false);
+            conversationIndex = 0;
+            nextDialogue();
+        }
+        else
+        {
+            conversationIndex++;
+            updateDialogue();
         }
     }
 
     void updateDialogue()
     {
-        updateSpeaker(story[currentDialogue].speaker);
-        string nextBlock = story[currentDialogue].getNextBlock();
-        if (nextBlock == "") nextDialogue();
-        else updateText(nextBlock);
+        updateSpeaker(speaker);
+        updateText(conversation[conversationIndex]);
+    }
+
+    void setIcon(int index)
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            if (i == index) icons[i].SetActive(true);
+            else icons[i].SetActive(false);
+        }
     }
 
     void updateSpeaker(string name)

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: ang
   conversationBlocks:
-  - Oh for f@#'s sake another one? That's all I needed, another nagging voice to
-    come along with their "opinion".
-  conversationIndex: 0
+  - Oh for f@#'s sake another one? That's all I needed, another nagging voice inside
+    this place.
+  - Place was cramped enough already!

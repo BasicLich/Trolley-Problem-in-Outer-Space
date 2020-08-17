@@ -6,27 +6,13 @@ using UnityEngine;
 public class DialogueData : ScriptableObject
 {
     public string speaker;
+    public string getSpeaker() { return speaker; }
     [TextArea(4, 4)]
     public List<string> conversationBlocks;
-    public int conversationIndex;
 
-    private void Awake()
+    public List<string> getConversation() 
     {
-        conversationIndex = -1;
-    }
-
-    public string getNextBlock() 
-    {
-        if (conversationIndex == conversationBlocks.Count - 1)
-        {
-            dialogueEnded = true;
-            return "";
-        }
-        else
-        {
-            conversationIndex++;
-            return conversationBlocks[conversationIndex];
-        }
+        return conversationBlocks;
     }
 
     bool finishedTyping = true;
@@ -36,7 +22,4 @@ public class DialogueData : ScriptableObject
         finishedTyping = true;
        // TODO
     }
-
-    bool dialogueEnded = false;
-    public bool ended() { return dialogueEnded; }
 }

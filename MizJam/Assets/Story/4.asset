@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
-  m_Name: 2
+  m_Name: 4
   m_EditorClassIdentifier: 
-  speaker: mor
+  speaker: int
   conversationBlocks:
-  - For liability reasons, all government regulated transport ships must have all
-    <i>Artificial Intelligence</i> crews from now on.
-  - That way all decisions are impartial and swift.
-  - I'm also the most recent advance in ship crew <i> A.I.</i>, and am looking forward
-    to working with you all.
+  - 'Pay no mind to him, '
+  - 
+  - 
