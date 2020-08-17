@@ -23,6 +23,7 @@ namespace TMPro
         public TextRevealEvent onTextReveal;
         public DialogueEvent onDialogueFinish;
 
+        public bool isReading;
         public void ReadText(string newText)
         {
             text = string.Empty;
@@ -50,6 +51,7 @@ namespace TMPro
             maxVisibleCharacters = 0;
             StartCoroutine(Read());
 
+            isReading = true;
             IEnumerator Read()
             {
                 int subCounter = 0;
@@ -74,6 +76,7 @@ namespace TMPro
                     }
                     subCounter++;
                 }
+                isReading = false;
                 yield return null;
 
                 WaitForSeconds EvaluateTag(string tag)

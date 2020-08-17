@@ -32,6 +32,9 @@ public class Interface : MonoBehaviour
 
     void Update()
     {
+        if (textComponent.isReading) arrow.SetActive(false);
+        else arrow.SetActive(true);
+
         if (Input.GetMouseButtonDown(0))
         {
             nextConversation();
@@ -80,7 +83,6 @@ public class Interface : MonoBehaviour
         switch (name)
         {
             case "":
-                arrow.SetActive(false);
                 break;
 
             case "Anger":
@@ -89,7 +91,6 @@ public class Interface : MonoBehaviour
                 speakerComponent.color = new Color(255 / 255.0F, 88 / 255.0F, 88 / 255.0F);
                 speakerComponent.text = "Anger Core";
                 setIcon(0);
-                arrow.SetActive(true);
                 break;
 
             case "Curiosity":
@@ -98,7 +99,6 @@ public class Interface : MonoBehaviour
                 speakerComponent.color = new Color(250 / 255.0F, 227 / 255.0F, 81 / 255.0F);
                 speakerComponent.text = "Curiosity Core";
                 setIcon(1);
-                arrow.SetActive(true);
                 break;
 
             case "Intelligence":
@@ -107,7 +107,6 @@ public class Interface : MonoBehaviour
                 speakerComponent.color = new Color(47 / 255.0F, 99 / 255.0F, 255 / 255.0F);
                 speakerComponent.text = "Intelligence Core";
                 setIcon(2);
-                arrow.SetActive(true);
                 break;
 
             case "Morality":
@@ -116,7 +115,6 @@ public class Interface : MonoBehaviour
                 speakerComponent.color = new Color(194 / 255.0F, 30 / 255.0F, 255 / 255.0F);
                 speakerComponent.text = "Morality Core";
                 setIcon(3);
-                arrow.SetActive(true);
                 break;
         }
     }
@@ -124,5 +122,6 @@ public class Interface : MonoBehaviour
     void updateText(string text)
     {
         textComponent.ReadText(text);
+        arrow.SetActive(true);
     }
 }
