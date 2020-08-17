@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: 
   conversationBlocks:
+  - 
   - <speed=10>A transport vessel flies with a speed of multiple light years, inching
     ever so close to an undisclosed destination.
   - <speed=20>There are 10 souls on board, though not a single voice can be heard

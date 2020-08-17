@@ -19,7 +19,7 @@ public class Interface : MonoBehaviour
 
     void Start()
     {
-        // Disabling icons
+        // Disabling icons and box
         for (int i = 0; i < 4; i++) icons[i].SetActive(false);
         arrow.SetActive(false);
 
