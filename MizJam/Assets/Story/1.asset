@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  speaker: 
+  speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
   - 
   - <speed=10>A transport vessel flies with a speed of multiple light years, inching

@@ -13,14 +13,14 @@ public class Interface : MonoBehaviour
 
     public DialogueData[] story;
     List<string> conversation;
-    string speaker;
+    CoreData speaker;
     int dialogueIndex;
     int conversationIndex;
 
     void Start()
     {
         // Disabling icons and box
-        for (int i = 0; i < 4; i++) icons[i].SetActive(false);
+        setIcon(-1);
         arrow.SetActive(false);
 
         conversationIndex = 0;
@@ -79,45 +79,12 @@ public class Interface : MonoBehaviour
         }
     }
 
-    void updateSpeaker(string name)
+    void updateSpeaker(CoreData speaker)
     {
-        switch (name)
-        {
-            case "":
-                break;
-
-            case "Anger":
-            case "anger":
-            case "ang":
-                speakerComponent.color = new Color(255 / 255.0F, 88 / 255.0F, 88 / 255.0F);
-                speakerComponent.text = "Anger Core";
-                setIcon(0);
-                break;
-
-            case "Curiosity":
-            case "curiosity":
-            case "cur":
-                speakerComponent.color = new Color(250 / 255.0F, 227 / 255.0F, 81 / 255.0F);
-                speakerComponent.text = "Curiosity Core";
-                setIcon(1);
-                break;
-
-            case "Intelligence":
-            case "intelligence":
-            case "int":
-                speakerComponent.color = new Color(47 / 255.0F, 99 / 255.0F, 255 / 255.0F);
-                speakerComponent.text = "Intelligence Core";
-                setIcon(2);
-                break;
-
-            case "Morality":
-            case "morality":
-            case "mor":
-                speakerComponent.color = new Color(194 / 255.0F, 30 / 255.0F, 255 / 255.0F);
-                speakerComponent.text = "Morality Core";
-                setIcon(3);
-                break;
-        }
+        Debug.Log(speaker.textColor.ToString()); Debug.Log(speaker.nameText);
+        speakerComponent.color = speaker.textColor;
+        speakerComponent.text = speaker.nameText;
+        setIcon(speaker.iconIndex);  
     }
 
     void updateText(string text)

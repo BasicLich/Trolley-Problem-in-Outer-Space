@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Dialogue Data", menuName = "Dialogue Data")]
 public class DialogueData : ScriptableObject
 {
-    public string speaker;
-    public string getSpeaker() { return speaker; }
+    public CoreData speaker;
+    public CoreData getSpeaker() { return speaker; }
     [TextArea(4, 4)]
     public List<string> conversationBlocks;
 

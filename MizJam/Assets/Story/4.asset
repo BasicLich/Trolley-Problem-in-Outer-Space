@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  speaker: int
+  speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
   - Pay no mind to <b>Anger</b>, he can get quite heated over these matters.
   - He's in charge of the weapons systems and shields us from outside danger.
