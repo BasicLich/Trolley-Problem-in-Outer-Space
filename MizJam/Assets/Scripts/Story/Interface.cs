@@ -37,7 +37,8 @@ public class Interface : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            nextConversation();
+            if (!textComponent.isReading) nextConversation();
+            else textComponent.skipReading();
         }
     }
 

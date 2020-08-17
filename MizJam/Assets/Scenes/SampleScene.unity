@@ -14141,7 +14141,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -5.002041, y: 9.278896, z: 19.847242, w: -5.7969265}
+  m_margin: {x: -5.8095264, y: 8.911779, z: 19.847242, w: -5.7969265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -14331,6 +14331,7 @@ MonoBehaviour:
   onDialogueFinish:
     m_PersistentCalls:
       m_Calls: []
+  isReading: 0
 --- !u!23 &1206389294
 MeshRenderer:
   m_ObjectHideFlags: 0

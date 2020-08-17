@@ -105,5 +105,13 @@ namespace TMPro
                 onDialogueFinish.Invoke();
             }
         }
+
+        public void skipReading()
+        {
+            StopAllCoroutines();
+            isReading = false;
+            maxVisibleCharacters = 99999;
+
+        }
     }
 }
