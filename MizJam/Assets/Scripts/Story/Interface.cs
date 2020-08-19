@@ -18,6 +18,8 @@ public class Interface : MonoBehaviour
     int dialogueIndex;
     int conversationIndex;
 
+    bool gameOver = false;
+
     void Start()
     {
         // Setting up audio sources
@@ -41,7 +43,7 @@ public class Interface : MonoBehaviour
         if (textComponent.isReading) arrow.SetActive(false);
         else arrow.SetActive(true);
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !gameOver)
         {
             if (!textComponent.isReading) nextConversation();
             else textComponent.skipReading();
@@ -51,6 +53,11 @@ public class Interface : MonoBehaviour
     void nextDialogue()
     {
         dialogueIndex++;
+        if (dialogueIndex == story.Length - 1)
+        {
+            gameOver = true;
+        }
+
         conversation = story[dialogueIndex].getConversation();
         speaker = story[dialogueIndex].getSpeaker();
         updateDialogue();

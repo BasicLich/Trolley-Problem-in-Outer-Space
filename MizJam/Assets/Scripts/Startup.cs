@@ -19,7 +19,7 @@ public class Startup : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        target = new Vector3(33, -20, -10);
+        target = new Vector3(37, -20, -10);
         tilemap = GetComponentInChildren<Tilemap>();
         Color temp = tilemap.color; temp.a = alpha;
         tilemap.color = temp;
@@ -40,11 +40,11 @@ public class Startup : MonoBehaviour
         if (clicked && !playing)
         {
             float step = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, target, step);
+            //transform.position = Vector3.MoveTowards(transform.position, target, step);
             fadeAlpha();
             Color temp = tilemap.color; temp.a = alpha; tilemap.color = temp;
         }
-        if (transform.position.Equals(target))
+        if (alpha == 1)
         {
             transform.position = new Vector3(0, 0, -10);
             playing = true;

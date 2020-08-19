@@ -21,4 +21,4 @@ MonoBehaviour:
   - Maintenance of ship utilities, major communications<speed=10>...
   - 'But most important of all, I tend to the cryosleep pods on-board and insure
     our primary objective:'
-  - <speed=5><i>Preservation of <b>all</b> human subjects</i>
+  - <speed=8><i>Preservation of<speed=3> <b>all</b> <speed=8>human subjects</i>
