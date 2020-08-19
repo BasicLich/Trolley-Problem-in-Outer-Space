@@ -7,6 +7,7 @@ public class Interface : MonoBehaviour
 {
     public TextMeshPro speakerComponent;
     public TMP_Animated textComponent;
+    public DialogueAudio soundComponent;
 
     public GameObject[] icons;
     public GameObject arrow;
@@ -19,6 +20,11 @@ public class Interface : MonoBehaviour
 
     void Start()
     {
+        // Setting up audio sources
+        soundComponent = GetComponent<DialogueAudio>();
+        soundComponent.voiceSource = GetComponents<AudioSource>()[0];
+        soundComponent.punctuationSource = GetComponents<AudioSource>()[1];
+
         // Disabling icons and box
         setIcon(-1);
         arrow.SetActive(false);
@@ -81,10 +87,15 @@ public class Interface : MonoBehaviour
 
     void updateSpeaker(CoreData speaker)
     {
-        Debug.Log(speaker.textColor.ToString()); Debug.Log(speaker.nameText);
+        // Text
         speakerComponent.color = speaker.textColor;
         speakerComponent.text = speaker.nameText;
-        setIcon(speaker.iconIndex);  
+        // Icon
+        setIcon(speaker.iconIndex);
+        // Sound
+        soundComponent.voices = speaker.voices;
+        soundComponent.punctuations = speaker.punctuations;
+        
     }
 
     void updateText(string text)

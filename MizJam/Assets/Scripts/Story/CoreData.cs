@@ -8,6 +8,7 @@ public class CoreData : ScriptableObject
     public Color textColor;
     public string nameText;
     public int iconIndex;
-    //public GameObject letterSound, symbolSound;
+    public AudioClip[] voices;
+    public AudioClip[] punctuations;
 
 }

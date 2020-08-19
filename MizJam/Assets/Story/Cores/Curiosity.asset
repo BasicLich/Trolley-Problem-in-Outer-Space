@@ -15,3 +15,9 @@ MonoBehaviour:
   textColor: {r: 0.9803922, g: 0.89019614, b: 0.31764707, a: 1}
   nameText: Curiosity Core
   iconIndex: 1
+  voices:
+  - {fileID: 8300000, guid: 8580c9d3f5aea1d4b9c3c9d07047f1dd, type: 3}
+  - {fileID: 8300000, guid: 8236dc2764ac6f14991e8dbaf52bf262, type: 3}
+  - {fileID: 8300000, guid: 53253423045d2434b8f2a6c774f1d540, type: 3}
+  punctuations:
+  - {fileID: 8300000, guid: 8aa11c955c6fcbc41b7d1f430b691f14, type: 3}

@@ -15,3 +15,10 @@ MonoBehaviour:
   textColor: {r: 0, g: 0, b: 0, a: 0}
   nameText: 
   iconIndex: -1
+  voices:
+  - {fileID: 8300000, guid: 4a6a48b18eb9a9941a326d50608c0af3, type: 3}
+  - {fileID: 8300000, guid: 9f32edbee03e47942bbee361247dfa4d, type: 3}
+  - {fileID: 8300000, guid: a42dd8c3e2d1adb488be080719db0700, type: 3}
+  - {fileID: 8300000, guid: 7e9aaa6961ba3df4c91e2469c64bd897, type: 3}
+  punctuations:
+  - {fileID: 8300000, guid: caae9627a8a72ca428434c5950c15d44, type: 3}
