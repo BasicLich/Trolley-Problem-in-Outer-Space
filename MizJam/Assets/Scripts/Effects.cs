@@ -8,12 +8,12 @@ public class Effects : MonoBehaviour
     public TMP_Animated animatedText;
     public GameObject[] effects;
 
-    Fade fade;
+    FadeOut fade;
 
     // Start is called before the first frame update
     void Start()
     {
-        fade = GetComponentInChildren<Fade>();
+        fade = GetComponentInChildren<FadeOut>();
 
         foreach (GameObject obj in effects) obj.SetActive(false);
 

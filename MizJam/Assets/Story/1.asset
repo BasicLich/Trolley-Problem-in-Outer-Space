@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - 
-  - <speed=20>A transport vessel flies with a speed of multiple light years, inching
-    ever so close to an undisclosed destination.
-  - <speed=20>There are 10 souls on board, though not a single voice can be heard
-    inside the cold hallways of the deck.
-  - <speed=20>Everyone has been sound asleep inside their cryosleep pods for what
-    could have been centuries.
+  - <emotion=combat>
+  - <speed=20>An ordinary transport vessel sails fast through uncategorized space,
+    inching ever so close to somewhere important.
+  - The logs indicate <size=14>10</size> human souls boarded the ship, though not
+    a <b>single</b> voice or footstep can be heard inside the cold metallic hallways.
+  - For <speed=10><b>everyone</b><speeed=20> has been sound asleep inside their cryosleep
+    pods for what could have been centuries.

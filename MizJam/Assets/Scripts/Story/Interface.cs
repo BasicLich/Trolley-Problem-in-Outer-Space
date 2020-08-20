@@ -18,7 +18,7 @@ public class Interface : MonoBehaviour
     int dialogueIndex;
     int conversationIndex;
 
-    bool gameOver = false;
+    public bool gameOver = false;
 
     void Start()
     {

@@ -10,8 +10,6 @@ public class Flashing : MonoBehaviour
     public float speed;
     int direction = -1;
 
-    int it = 0;
-
     TextMeshPro text;
     // Start is called before the first frame update
     void Start()
@@ -26,7 +24,6 @@ public class Flashing : MonoBehaviour
     {
         while (true)
         {
-            Debug.Log(text.color.a);
             Color textColor = text.color;
 
             if (textColor.a <= 0.1) direction = 1;

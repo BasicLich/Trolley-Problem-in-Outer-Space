@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class Fade : MonoBehaviour
+public class FadeOut : MonoBehaviour
 {
     public float speed;
     private Tilemap tilemap;
@@ -13,7 +13,7 @@ public class Fade : MonoBehaviour
         tilemap = GetComponent<Tilemap>();
     }
 
-    IEnumerator fade()
+    public IEnumerator fade()
     {
         while (true)
         {

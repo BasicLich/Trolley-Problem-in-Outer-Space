@@ -7,7 +7,7 @@ public class DialogueData : ScriptableObject
 {
     public CoreData speaker;
     public CoreData getSpeaker() { return speaker; }
-    [TextArea(4, 4)]
+    [TextArea(6, 6)]
     public List<string> conversationBlocks;
 
     public List<string> getConversation() 
