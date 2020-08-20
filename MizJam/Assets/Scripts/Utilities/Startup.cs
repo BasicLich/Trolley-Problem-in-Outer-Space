@@ -36,7 +36,7 @@ public class Startup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKey) clicked = true;
+        if (Input.GetMouseButtonDown(0)) clicked = true;
         if (clicked && !playing)
         {
             float step = speed * Time.deltaTime;

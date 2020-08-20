@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - <emotion=combat>Oh for f@#'s sake another one? That's all I needed, another nagging
-    voice inside here.
-  - Place was cramped enough already!
+  - '<emotion=combat><size=12>Oh for f@#''s sake another new guy?</size> <size=14>What
+    in <b>God''s</b> name are you even here for?! </size> '
+  - '<size=15>We were doin just fine without any help,</size> <size=20><speed=10>Get
+    THE F@# OUT!!! </size> '

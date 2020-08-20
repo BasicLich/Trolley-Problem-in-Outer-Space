@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
+  conversationBlocks:
+  - <emotion=normal><speed=20>Pay no mind to <b>Anger</b>, he gets heated for the
+    simplest of things you'll get used to it<speed=5>...<speed=20>(hopefully)
+  - 'His job on this ship can actually be considered the most vital: <size=14><b>Weapons
+    and Shield systems</b></size>.'
+  - Without him we would have been raided by <i>Pirates</i> and sold for parts and
+    scrap a <speed=10>long, long <speed=20>time ago.
+  - 'Getting back on topic, I''m the <b>Intelligence Core</b> and I run most of the
+    routine systems and <i>"under the hood"</i> activities:'
+  - Maintenance of ship utilities, major communications with outside contact, cooling
+    of the engines and warp drives<speed=10>...
+  - 'But most important of all, I tend to the <b><size=10>cryosleep pods</b></size>
+    on-board and insure our primary objective:'
+  - <speed=8><i>Preservation of <speed=3><size=14><b>ALL</b></size> <speed=8>human
+    subjects</i>

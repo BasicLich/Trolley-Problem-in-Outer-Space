@@ -15,11 +15,11 @@ MonoBehaviour:
   speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
   conversationBlocks:
   - <speed=25>Most ships nowadays sail with no human crew.
-  - Both because it would be <b>biologically <size=14>impossible</size></b> for any
+  - Both because it would be <b>biologically <size=10>impossible</size></b> for any
     human to survive the lengths of the travels...
   - But also because their reflexes are <b>slow</b> and their decision making <b>clowded</b>.
   - They quickly realized this on their first <i>deep-space</i> expeditions, and
-    so when given the chance, they started putting <size=14>Us</size> in charge of
+    so when given the chance, they started putting <size=10>Us</size> in charge of
     those jobs.
   - Thus came the <i>Era of Artificial Intelligence</i> controlled space-travel.
   - I'm sorry for not introducing myself earlier at takeoff, I'm the <i>Morality

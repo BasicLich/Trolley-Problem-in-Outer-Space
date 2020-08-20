@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
-  m_Name: 4
+  m_Name: 8
   m_EditorClassIdentifier: 
-  speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
+  speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - <emotion=normal><size=6>I mean<speed=5>... <speed=20>I was put here because you
-    guys messed up the last delivery <speed=5>so...<speed=20></size>
+  - '<size=8>Oh don''t you see, he''s just like him! '
+  - All <i>LoVey dOvEy FOr ThE HUmAn RaCe</i><speed=5>...<speed=20>
+  - I could smell it a mile away... All that pity gets us nowhere, I said it once
+    I will say it again.</size>

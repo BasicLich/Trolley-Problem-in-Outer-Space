@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - <emotion=combat>
+  - 
   - <speed=20>An ordinary transport vessel sails fast through uncategorized space,
     inching ever so close to somewhere important.
-  - The logs indicate <size=14>10</size> human souls boarded the ship, though not
+  - The logs indicate <size=10>10</size> human souls boarded the ship, though not
     a <b>single</b> voice or footstep can be heard inside the cold metallic hallways.
-  - For <speed=10><b>everyone</b><speeed=20> has been sound asleep inside their cryosleep
+  - <speed=10><b>Everyone</b><speed=20> has been sound asleep inside their transport
     pods for what could have been centuries.
