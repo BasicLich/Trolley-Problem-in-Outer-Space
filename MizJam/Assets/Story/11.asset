@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
+  conversationBlocks:
+  - That's a completely reasonable line of thought <#FAE351>Curiosity</color>, we're
+    allowed to form the opinions that we wish about our makers.
+  - Our primary directive is to <i>obey orders</i>, not to <i>lick boots</i>.
+  - I am, however, a little different from the rest of you, since my learning model
+    was trained with centuries of human thought and history data, I have become <i>de-sensitized</i>
+    from the human race.
+  - You could say I hold no opinion on them. I'm only here to facilitate decision
+    making on extremely rare situations which may leave the rest of you in doubt.
+  - For most of the time you won't even notice I'm here.

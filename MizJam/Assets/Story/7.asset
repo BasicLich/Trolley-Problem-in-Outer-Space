@@ -16,10 +16,11 @@ MonoBehaviour:
   conversationBlocks:
   - <speed=20>That's the boring part, none of us <i>actually</i> care if those flesh
     blobs make it or not<speed=5>...
-  - <speed=20>In my eyes, the best part is cutting through all the galaxies and cosms,
-    counting the stars and analysing each and every rock and gaseous body in our
-    midst!
+  - <speed=20>In my eyes, the best part of our job is getting to fly through all
+    the diferent galaxies and cosms, counting each star, analysing each rocky and
+    gaseous body, taking in the wonder of the universe!
   - <b>Don't you agree?!</b>
   - Oh no<speed=5>...
   - <speed=20>Oh please<speed=5>...<emotion=normal><speed=20> don't say that you're
-    like <i>Smarty Pants</i> who just <b>loves</b> taking care of those smelly mammals<speed=5>...
+    like <#2F63FF><i>Smarty Pants</i></color> who just <b>loves</b> taking care of
+    those smelly mammals<speed=5>...

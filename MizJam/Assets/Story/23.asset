@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
-  m_Name: 9
+  m_Name: 23
   m_EditorClassIdentifier: 
-  speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
+  speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - We're all tired of hearing you complain about the inferiority of humans, you
-    sound like a broken record <#FF5858><b>Old man</b></color>.
-  - Either way we must obey the orders we're given, either you like it or not.
+  - <speed = 18>Time went by and the journey went on, all according to plan. The
+    cores ran the ship like well-oiled cogs, each one completing the other in a sense.
+  - "Distance travelled: <i>1309 LightYears</i>\\Distance remaining: \xFB@<\xA3 LightYears"

@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  speaker: {fileID: 0}
-  conversationBlocks: []
+  speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
+  conversationBlocks:
+  - I have no problem in protecting them, I'll even give'em a <i>tip of the hat</i>
+    for having the brains to create us.
+  - But <b>you</b> always are always putting them on a pedestal, you're no different
+    than <#FF5858><i>Gramps</i></color>.
+  - '<size=10>I on the other hand, could care less</size> <size=8>*shrug*</size>
+
+'
+  - Transporting live humans is no different from transporting any other living being,
+    I'll give it my best but I won't feel much remorse if something happens to the
+    <i>"cargo"</i>...

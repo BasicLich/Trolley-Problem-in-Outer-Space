@@ -80,6 +80,7 @@ public class Interface : MonoBehaviour
 
     void updateDialogue()
     {
+        if (speaker == null) nextDialogue();
         updateSpeaker(speaker);
         updateText(conversation[conversationIndex]);
     }
