@@ -22,6 +22,8 @@ public class Effects : MonoBehaviour
 
     void changeEffect(Emotion emotion)
     {
+        if (emotion == Emotion.silent) return;
+        
         for (int i = 0; i < effects.Length; i++)
         {
             if ((int)emotion == i) effects[i].SetActive(true);

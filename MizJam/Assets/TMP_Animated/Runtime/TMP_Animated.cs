@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 namespace TMPro
 {
-    public enum Emotion { normal, combat, danger, silent, end, explosion };
+    public enum Emotion { normal, combat, danger, fullStop, end, explosion, anticipation, silent };
     [System.Serializable] public class EmotionEvent : UnityEvent<Emotion> { }
 
     [System.Serializable] public class ActionEvent : UnityEvent<string> { }

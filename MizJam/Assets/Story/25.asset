@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
   m_Name: 25
   m_EditorClassIdentifier: 
-  speaker: {fileID: 0}
-  conversationBlocks: []
+  speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
+  conversationBlocks:
+  - From what I can tell the sensors aren't malfunctioning...
+  - Can't we divert our route? Remember our <size=12><b>priority</b></size>.

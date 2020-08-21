@@ -1416,7 +1416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 327481359}
   m_Layer: 0
-  m_Name: SilentScreen
+  m_Name: FullStopScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27922,9 +27922,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4d211c4e42cfc454e8fe705d1073c33a, type: 3}
   - {fileID: 8300000, guid: 03de6bf015e9c974c96767343f1ca60b, type: 3}
   - {fileID: 8300000, guid: 518b1dfb37b87464b835c04b98f8cbf1, type: 3}
-  - {fileID: 8300000, guid: df1a1916c7689b2449134f66cd8f2a55, type: 3}
+  - {fileID: 8300000, guid: fc25ae21cbc2c81488c17ba44e44b450, type: 3}
   - {fileID: 8300000, guid: 461ab692a97d168469ebcb89e68c49df, type: 3}
   - {fileID: 8300000, guid: b1d033ea7a8a32547958e38ce5c1e917, type: 3}
+  - {fileID: 8300000, guid: c73a4d017ac4d7246aecc0e52b576ac7, type: 3}
+  - {fileID: 8300000, guid: df1a1916c7689b2449134f66cd8f2a55, type: 3}
   maxVolume: 0.3
   fadeSpeed: 0.03
 --- !u!4 &1063558810
@@ -27944,6 +27946,7 @@ Transform:
   - {fileID: 327481359}
   - {fileID: 789936992}
   - {fileID: 2051591338}
+  - {fileID: 2011800165}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28063,6 +28066,7 @@ MonoBehaviour:
   - {fileID: 327481358}
   - {fileID: 789936991}
   - {fileID: 2051591336}
+  - {fileID: 2011800164}
 --- !u!1 &1073038854
 GameObject:
   m_ObjectHideFlags: 0
@@ -48226,6 +48230,29 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d51b866860ae7a446b3b7c4c032413be, type: 2}
   - {fileID: 11400000, guid: 8c195ce132d11384c8be244a4ae155d9, type: 2}
   - {fileID: 11400000, guid: 4a9aefa810f38914b94716755cfc2196, type: 2}
+  - {fileID: 11400000, guid: 11ac6080f98ae9542a5c2338e4de536d, type: 2}
+  - {fileID: 11400000, guid: cf383bde67247364b89818c318fc2993, type: 2}
+  - {fileID: 11400000, guid: 9dd670191b8de304297dee3571d2cbd4, type: 2}
+  - {fileID: 11400000, guid: dbce7bad38beead4b98afaf8f162b005, type: 2}
+  - {fileID: 11400000, guid: f13fee3e42fd2274f86a1b347f98cd1e, type: 2}
+  - {fileID: 11400000, guid: b85279b14dc83414ea63a22ad6230eac, type: 2}
+  - {fileID: 11400000, guid: e1aa52faa4619274ebc8449c32dfbac9, type: 2}
+  - {fileID: 11400000, guid: 909d7d5edcb415f4781f78c68a78444f, type: 2}
+  - {fileID: 11400000, guid: 98dc29fef13e0e84288b334abf25709d, type: 2}
+  - {fileID: 11400000, guid: c5b52c1547d9974479fec5cdeb670e1e, type: 2}
+  - {fileID: 11400000, guid: 9964ed6994678554eaed8d39447cb802, type: 2}
+  - {fileID: 11400000, guid: ec80686f93d4e6a42b8a4ea8431552ce, type: 2}
+  - {fileID: 11400000, guid: 768d8815b6a457c4d9e2962f38819f57, type: 2}
+  - {fileID: 11400000, guid: 7fdf4a1ae029d2a47a774244840ced61, type: 2}
+  - {fileID: 11400000, guid: f2bd6cdc52a9e8345b71cd5dda48ec28, type: 2}
+  - {fileID: 11400000, guid: 70c101f5939f2c0408570409e05410db, type: 2}
+  - {fileID: 11400000, guid: 8fb9354ff3cda574c81cdead0062fe61, type: 2}
+  - {fileID: 11400000, guid: cbce227a89e0aa8459f8430ad8bc1c8f, type: 2}
+  - {fileID: 11400000, guid: 780686bea3a76ca46b5d1361044a23d4, type: 2}
+  - {fileID: 11400000, guid: 23d65be17823be9438c9aceb29801c6b, type: 2}
+  - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
+  - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
+  - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
   - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
   gameOver: 0
 --- !u!82 &1691194657
@@ -54497,6 +54524,36 @@ MonoBehaviour:
   Cooldown: 0.5
   mainColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
   alternateColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2011800164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2011800165}
+  m_Layer: 0
+  m_Name: AnticipationScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2011800165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011800164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1063558810}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019450055
 GameObject:
   m_ObjectHideFlags: 0

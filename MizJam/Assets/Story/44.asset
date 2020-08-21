@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
-  m_Name: 3
+  m_Name: 44
   m_EditorClassIdentifier: 
-  speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
+  speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
-  - '<emotion=combat><size=12>Oh for f@#''s sake another new guy?</size> <size=14>What
-    in <b>God''s</b> name are you even here for?! </size> '
-  - '<size=15>We were doin just fine without any help,</size> <size=18><speed=10>Get
-    OUT!!! </size> '
+  - We were hit pretty bad, most of the left side is completely gone.
+  - We have one engine down and a leak in the fuel reserves; Missile bay #1 & #2
+    are incapacitated, as is the left gattling gun.
+  - Also,<pause=0.5> one of the pods is on fire...

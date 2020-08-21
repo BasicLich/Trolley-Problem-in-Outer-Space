@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
   m_Name: 24
   m_EditorClassIdentifier: 
-  speaker: {fileID: 0}
-  conversationBlocks: []
+  speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
+  conversationBlocks:
+  - Hey <#2F63FF><b>Intelligence</b></color>, I'm getting some weird readings from
+    the nebula up ahead.
+  - Either our magnetic sensors have gone haywire, or the <i>magnetic field</i> inside
+    that thing is something we have never seen the likes of...

@@ -10,8 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
-  m_Name: End
+  m_Name: 36
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - <emotion=fullStop><pause=3><emotion=end>
+  - As the current dropped, little lights and devices would flicker and then shut
+    down.
+  - The tension in the core room was palpable, as all members attentively watched
+    all the numbers and dials drop to 0.<emotion=silent>
+  - Silence flooded the deck as everything stood suspended, not a single movement,
+    not one particle left it's place.

@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
-  m_Name: 3
+  m_Name: 34
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - '<emotion=combat><size=12>Oh for f@#''s sake another new guy?</size> <size=14>What
-    in <b>God''s</b> name are you even here for?! </size> '
-  - '<size=15>We were doin just fine without any help,</size> <size=18><speed=10>Get
-    OUT!!! </size> '
+  - 'What are you, <size=11>insane?!</size> You wan''t to deliberately turn off the
+    shields?! '
+  - What if this is all just a trap? What happens then uh?

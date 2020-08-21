@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
+  m_Name: 35
+  m_EditorClassIdentifier: 
+  speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
+  conversationBlocks:
+  - Yes you're right <b><#FF5858>Anger</color></b>, it is way too risky of a move,
+    especially with the cargo we're holding.
+  - And besides, the majority of our current is allocated to the cryo pods, and turning
+    those off is out of question.
+  - Premature ejection of a human subject has proven to be very dangerous, since
+    untreated <i>cryo-sleep sickness</i> can be deadly in less than a week.
+  - We'll keep our heading and hold our shields for as long as we can.
