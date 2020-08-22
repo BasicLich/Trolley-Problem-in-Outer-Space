@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
+  m_Name: 49
+  m_EditorClassIdentifier: 
+  speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
+  conversationBlocks:
+  - <emotion=tense>Both left and right <b>clusters of pods</b> are comprised of <b>5
+    individually wired</b> chambers, standing at <b>2 feet</b> from each other.
+  - Both are built inside special, sealed alloy rooms. This makes it so, in the event
+    of a <b>hull breach</b> or other emergency, they can be <b><size=10>locked tight.</size></b>
+  - This <i>"shut-down protocol" is hardwired and can't be tampered by anyone other
+    than the manufacturer.<\n><speed=8><b>That</b><speed=20> is why he is unable
+    of making this decision.

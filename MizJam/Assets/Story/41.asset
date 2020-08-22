@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - "<i><size=15>2</size> enemy frigates spotted 20\xBA starboard, engaging...</i>"
+  - "<i><size=11>2</size> enemy frigates spotted 20\xBA starboard, engaging...</i>"

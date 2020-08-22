@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
+  m_Name: 55
+  m_EditorClassIdentifier: 
+  speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
+  conversationBlocks:
+  - <size=12>Whoa there hold your horses buddy!</size>
+  - Even <size=13><b>I</b></size> can see through my loathing of the human race and
+    admit that it is in our best interest to save <b>as many as we can...</b>
+  - Letting the other 4 die when they can be easily saved is <b>nonsense.</b>

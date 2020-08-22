@@ -16,4 +16,5 @@ MonoBehaviour:
   conversationBlocks:
   - <speed = 18>Time went by and the journey went on, all according to plan. The
     cores ran the ship like well-oiled cogs, each one completing the other in a sense.
-  - "Distance travelled: <i>1309 LightYears</i>\\Distance remaining: \xFB@<\xA3 LightYears"
+  - "Distance travelled: <i>1309 LightYears</i>\nDistance remaining: \u30C4\u30C4\u30C4\u30C4
+    LightYears"

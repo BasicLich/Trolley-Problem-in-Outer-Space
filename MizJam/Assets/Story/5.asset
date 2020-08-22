@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - <emotion=combat><size=9>You motherf@#% </size><size=11>when I'm done with YOU-</size>
+  - <emotion=combat><speed=20><size=9>You motherf@#% </size><size=11>when I'm done
+    with YOU-</size>

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
   conversationBlocks:
-  - As of now I do hold a headship position in this crew, but as I said my interactions
-    will be very limited.
+  - <emotion=anticipation>As of now I do hold a headship position in this crew, but
+    as I said my interactions will be very limited.
   - I don't want you to see me as some <b><size=10>tyrant</size></b> who's come here
-    to impose on your work... I will just be watching over and jumping in if unanimity
-    cannot be achieved.
+    to impose on your work<speed=5>... <speed=20>I will just be watching over and
+    jumping in if unanimity cannot be achieved.

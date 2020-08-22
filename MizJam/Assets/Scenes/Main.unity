@@ -1415,6 +1415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 327481359}
+  - component: {fileID: 327481360}
   m_Layer: 0
   m_Name: FullStopScreen
   m_TagString: Untagged
@@ -1437,6 +1438,21 @@ Transform:
   m_Father: {fileID: 1063558810}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &327481360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327481358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dcadd660363c804bac22da4668143c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeo: {fileID: 487268274}
+  fadei: {fileID: 487268277}
+  waitTime: 2
 --- !u!1 &354638056
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +3096,7 @@ GameObject:
   - component: {fileID: 487268273}
   - component: {fileID: 487268276}
   - component: {fileID: 487268275}
+  - component: {fileID: 487268277}
   - component: {fileID: 487268274}
   m_Layer: 0
   m_Name: SilentTilemap
@@ -3114,7 +3131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3816ed6e78fe94d805bd205787ae36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.01
+  speed: 0.02
 --- !u!483693784 &487268275
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -3154,7 +3171,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1316504713
   m_SortingLayer: 1
-  m_SortingOrder: 100
+  m_SortingOrder: 200
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -9705,6 +9722,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &487268277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487268272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f4ee5d3e8ab6a4c982f56876b43796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.005
+  tilemap: {fileID: 487268276}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -27927,6 +27958,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b1d033ea7a8a32547958e38ce5c1e917, type: 3}
   - {fileID: 8300000, guid: c73a4d017ac4d7246aecc0e52b576ac7, type: 3}
   - {fileID: 8300000, guid: df1a1916c7689b2449134f66cd8f2a55, type: 3}
+  - {fileID: 8300000, guid: 547d1b24162e87e40a27fb8dab1c610d, type: 3}
+  - {fileID: 8300000, guid: be41d86cd4ca7c449b86a43baa671d0a, type: 3}
+  - {fileID: 8300000, guid: 82b2fc5bc0e21334c88a0b4b6cecc70b, type: 3}
   maxVolume: 0.3
   fadeSpeed: 0.03
 --- !u!4 &1063558810
@@ -27946,7 +27980,6 @@ Transform:
   - {fileID: 327481359}
   - {fileID: 789936992}
   - {fileID: 2051591338}
-  - {fileID: 2011800165}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28066,7 +28099,6 @@ MonoBehaviour:
   - {fileID: 327481358}
   - {fileID: 789936991}
   - {fileID: 2051591336}
-  - {fileID: 2011800164}
 --- !u!1 &1073038854
 GameObject:
   m_ObjectHideFlags: 0
@@ -48249,11 +48281,27 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8fb9354ff3cda574c81cdead0062fe61, type: 2}
   - {fileID: 11400000, guid: cbce227a89e0aa8459f8430ad8bc1c8f, type: 2}
   - {fileID: 11400000, guid: 780686bea3a76ca46b5d1361044a23d4, type: 2}
+  - {fileID: 11400000, guid: 73f47276a15b06f40b0847f9cdda38e8, type: 2}
   - {fileID: 11400000, guid: 23d65be17823be9438c9aceb29801c6b, type: 2}
+  - {fileID: 11400000, guid: 637e8a0ef6b3bdf4ebfb6f48c6e2fa80, type: 2}
+  - {fileID: 11400000, guid: a8c7f1395896dbf499062eba78047e1c, type: 2}
+  - {fileID: 11400000, guid: 3d144551e1ac7164c968ef1bd2bd2e62, type: 2}
+  - {fileID: 11400000, guid: 71e866771e9c23d4e907758d3218b051, type: 2}
+  - {fileID: 11400000, guid: 6c5952df81ffbc645a0f14f6126cce1b, type: 2}
+  - {fileID: 11400000, guid: 94a6e17c0ca759a4d88809226c8b558c, type: 2}
+  - {fileID: 11400000, guid: 932b3ebb263735546b8b21a856655dca, type: 2}
+  - {fileID: 11400000, guid: c9f6e31025257714f935d42e14e20164, type: 2}
+  - {fileID: 11400000, guid: e908f25eefc89dd44971c8de0ed48d8a, type: 2}
+  - {fileID: 11400000, guid: c469f8b3e2d2780458ef7a6a51380d62, type: 2}
+  - {fileID: 11400000, guid: 2e0da7f6d49eedc428b2f58c0d011492, type: 2}
+  - {fileID: 11400000, guid: 7c40df6823320bc4a8f924c421206b11, type: 2}
+  - {fileID: 11400000, guid: 2bcc62b4dd1a8404f840126df3b82eee, type: 2}
   - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
   - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
   - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
   - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
+  - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
+  dialogueIndex: 20
   gameOver: 0
 --- !u!82 &1691194657
 AudioSource:
@@ -48363,7 +48411,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.4
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -54524,36 +54572,6 @@ MonoBehaviour:
   Cooldown: 0.5
   mainColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
   alternateColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &2011800164
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2011800165}
-  m_Layer: 0
-  m_Name: AnticipationScreen
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2011800165
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011800164}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1063558810}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019450055
 GameObject:
   m_ObjectHideFlags: 0

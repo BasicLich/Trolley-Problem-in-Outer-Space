@@ -8,13 +8,11 @@ public class Effects : MonoBehaviour
     public TMP_Animated animatedText;
     public GameObject[] effects;
 
-    FadeOut fade;
+    bool emergencyOn = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        fade = GetComponentInChildren<FadeOut>();
-
         foreach (GameObject obj in effects) obj.SetActive(false);
 
         animatedText.onEmotionChange.AddListener((Emotion) => changeEffect(Emotion));
@@ -22,18 +20,24 @@ public class Effects : MonoBehaviour
 
     void changeEffect(Emotion emotion)
     {
-        if (emotion == Emotion.silent) return;
-        
+        if ((int)emotion >= effects.Length) return;
+
+        if (emotion == Emotion.end)
+        {
+            effects[(int)emotion].SetActive(true);
+            return;
+        }
+
         for (int i = 0; i < effects.Length; i++)
         {
+            if (emergencyOn && i == (int)Emotion.danger) continue;
+
             if ((int)emotion == i) effects[i].SetActive(true);
             else effects[i].SetActive(false);
 
-            if (emotion == Emotion.end)
-            {
-                effects[(int)Emotion.silent].SetActive(true);
-                fade.start();
-            }
+            
         }
+
+        if (emotion == Emotion.danger) emergencyOn = true;
     }
 }

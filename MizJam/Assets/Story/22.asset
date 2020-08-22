@@ -15,5 +15,5 @@ MonoBehaviour:
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
   - I don't really care if you take over my functions, I'll just warn you that my
-    experience is worth <b>a thousand times more</b> than all your <i>training</i>
-    and <i>study</i>.
+    experience is worth <b>a thousand times more</b> than all your <i>"training"</i>
+    and <i>"study"</i>.

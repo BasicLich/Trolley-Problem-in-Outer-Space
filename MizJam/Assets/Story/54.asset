@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
+  m_Name: 54
+  m_EditorClassIdentifier: 
+  speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
+  conversationBlocks:
+  - Wow<speed=5>... <speed=20>This is quite the predicament huh.
+  - <size=11>Then our best course may be <b>impartiality.</b></size>
+  - <size=12>Let the cabin burn and control the rest of the fires in the ship.</size>
+  - <size=11>If we can't choose one life over the others, then we'll just have to
+    choose <speed=15><b>none.</b><speed=20></size>

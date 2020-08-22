@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - <i>Thread eliminated, disengaging arms</i>
+  - <emotion=silent><i>Thread eliminated, disengaging arms</i>
   - <size=15><speed=5>...<speed=20>
-  - OK WHAT DO WE DO NOW?!?
+  - <emotion=tenseFast><size=14>OK WHAT DO WE DO NOW?!?</size>

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
-  - Then you'll be glad to hear that those priviliges have been taken from me, without
+  - Then you'll be glad to hear that those priviliges have been taken from me, <emotion=silent>without
     previous warning.
   - I just found out by myself a couple minutes ago when my sensor reports came back
     incomplete.

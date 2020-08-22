@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35c30484fb303144a5ca3d51ca66daf, type: 3}
+  m_Name: 53
+  m_EditorClassIdentifier: 
+  speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
+  conversationBlocks:
+  - "And in doing so, my actions would directly implicate the death of a human.\t"
+  - Not only that, but the <size=12><b>preference</b></size> of the one life over
+    the others.
+  - Human life cannot be quantified.<emotion=silent>
+  - You can't solve this with arithmetics of greater good. Not outside of the theoritical
+    realm
+  - I<speed=5>... <speed=20>I cannot make this decision<speed=5>...I can't...<speed=20>

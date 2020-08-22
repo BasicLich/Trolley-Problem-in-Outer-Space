@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
-  - That makes sense, our <b>last trip/b> was problematic <i>precisely</i> because
-    of the bias we all hold.
+  - <speed=20>That makes sense, our <b>last trip</b> was problematic <i>precisely</i>
+    because of the bias we all hold.

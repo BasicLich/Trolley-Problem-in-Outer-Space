@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - As the current dropped, little lights and devices would flicker and then shut
-    down.
+  - <emotion=silent>As the current dropped, little lights and devices would flicker
+    and then shut down.
   - The tension in the core room was palpable, as all members attentively watched
-    all the numbers and dials drop to 0.<emotion=silent>
+    all the numbers and dials drop to 0.
   - Silence flooded the deck as everything stood suspended, not a single movement,
     not one particle left it's place.

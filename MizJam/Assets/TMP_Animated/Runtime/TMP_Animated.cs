@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 namespace TMPro
 {
-    public enum Emotion { normal, combat, danger, fullStop, end, explosion, anticipation, silent };
+    public enum Emotion { normal, combat, danger, fullStop, end, explosion, anticipation, silent, tense, tenseFast, guns };
     [System.Serializable] public class EmotionEvent : UnityEvent<Emotion> { }
 
     [System.Serializable] public class ActionEvent : UnityEvent<string> { }
@@ -111,7 +111,6 @@ namespace TMPro
             StopAllCoroutines();
             isReading = false;
             maxVisibleCharacters = 99999;
-
         }
     }
 }

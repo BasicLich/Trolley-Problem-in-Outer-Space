@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
   conversationBlocks:
-  - We would have to disengage the warp drive and use up <size=12>tremendous</size>
+  - We would have to disengage the warp drive and use up <size=10>tremendous</size>
     amounts of fuel to stop all the momentum we have going.
-  - Why wasn't this formation in our logs?! It has to be incredibly recent otherwise
+  - Why wasn't this gas formation in our logs?! It has to be incredibly recent otherwise
     we would have picked it up.

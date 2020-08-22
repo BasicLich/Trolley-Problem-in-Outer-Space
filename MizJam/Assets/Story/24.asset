@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
   conversationBlocks:
-  - Hey <#2F63FF><b>Intelligence</b></color>, I'm getting some weird readings from
-    the nebula up ahead.
-  - Either our magnetic sensors have gone haywire, or the <i>magnetic field</i> inside
-    that thing is something we have never seen the likes of...
+  - Hey <#2F63FF><b>Intelligence</b></color>, <emotion=anticipation>I'm getting some
+    weird readings from the nebula up ahead.
+  - Either our sensors have gone haywire, or the <i>magnetic field</i> inside that
+    thing is something we have never seen the likes of...

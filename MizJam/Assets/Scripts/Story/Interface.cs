@@ -16,7 +16,7 @@ public class Interface : MonoBehaviour
     public DialogueData[] story;
     List<string> conversation;
     CoreData speaker;
-    int dialogueIndex;
+    public int dialogueIndex = 0;
     int conversationIndex;
 
     public bool gameOver = false;
@@ -33,7 +33,7 @@ public class Interface : MonoBehaviour
         arrow.SetActive(false);
 
         conversationIndex = 0;
-        dialogueIndex = 0;
+        //dialogueIndex = 0;
         conversation = story[dialogueIndex].getConversation();
         speaker = story[dialogueIndex].getSpeaker();
         updateDialogue();

@@ -16,8 +16,8 @@ MonoBehaviour:
   conversationBlocks:
   - Yes you're right <b><#FF5858>Anger</color></b>, it is way too risky of a move,
     especially with the cargo we're holding.
-  - And besides, the majority of our current is allocated to the cryo pods, and turning
-    those off is out of question.
+  - And besides, the majority of our current is already allocated to the cryo pods,
+    and turning those off is <size=11>out of question.</size>
   - Premature ejection of a human subject has proven to be very dangerous, since
-    untreated <i>cryo-sleep sickness</i> can be deadly in less than a week.
+    untreated <i>cryo-sleep sickness</i> can kill in <b>less than a week.</b>
   - We'll keep our heading and hold our shields for as long as we can.

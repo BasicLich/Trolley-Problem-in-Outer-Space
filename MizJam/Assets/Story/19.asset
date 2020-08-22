@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
   conversationBlocks:
-  - <size=12>Of course captain, the helm is yours!</size>
+  - Of course Cap'n, <size=11>the helm is yours!</size>

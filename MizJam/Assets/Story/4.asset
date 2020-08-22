@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
   conversationBlocks:
   - <emotion=normal><size=6>I mean<speed=5>... <speed=20>I was put here because you
-    guys messed up the last delivery <speed=5>so...<speed=20></size>
+    guys messed up the last delivery <speed=5>so...</size>

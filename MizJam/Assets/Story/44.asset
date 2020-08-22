@@ -15,6 +15,6 @@ MonoBehaviour:
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
   - We were hit pretty bad, most of the left side is completely gone.
-  - We have one engine down and a leak in the fuel reserves; Missile bay #1 & #2
-    are incapacitated, as is the left gattling gun.
-  - Also,<pause=0.5> one of the pods is on fire...
+  - We have one engine down and a leak in the fuel reserves; Missile bay <b>#1 &
+    #2</b> are incapacitated, as is the left gattling gun.
+  - <size=12>Also,<pause=0.5> one of the pods is on fire...</size>

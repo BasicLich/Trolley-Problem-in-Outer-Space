@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
   - From what I can tell the sensors aren't malfunctioning...
-  - Can't we divert our route? Remember our <size=12><b>priority</b></size>.
+  - Can't we divert our route? Remember our <size=12><b>Priority</b></size>.

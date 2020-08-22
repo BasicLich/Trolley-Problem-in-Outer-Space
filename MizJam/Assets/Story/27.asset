@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
-  - Yes you're right, it couldn't have been formed more than <b>one hour ago</b>.
+  - Yes you're right, it couldn't have been formed more than <b>an hour ago</b>.
   - Well<speed=5>...<speed=20> Then we are left with no choice but to power through
     it.
-  - <size=14>Onwards <#FAE351>Curiosity</color>!
+  - <size=14>Onwards <#FAE351>Curiosity</color>!</size>

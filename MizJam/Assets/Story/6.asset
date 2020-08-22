@@ -15,12 +15,12 @@ MonoBehaviour:
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
   - <emotion=normal><speed=20>Pay no mind to <#FF5858><b>Anger</b></color>, he gets
-    heated for the simplest of things you'll get used to it<speed=5>...<speed=20>(hopefully)
+    heated for the simplest of things, you'll get used to it<speed=5>...<speed=20>(hopefully)
   - 'His job on this ship can actually be considered the most vital: <size=14><b>Weapons
     and Shield systems</b></size>.'
   - Without him we would have been raided by <i>Pirates</i> and sold for parts and
     scrap a <speed=10>long, long <speed=20>time ago.
-  - And yes last mission was a failure, but that was because <b>neither</b>of our
+  - And yes last mission was a failure, but that was because <b>neither</b> of our
     models are built to tackle <size=9> moral dillemas</size> of that nature.
   - 'Getting back on topic, I''m the <#2F63FF><b>Intelligence Core</b></color> and
     I run most of the routine systems and <i>"under the hood"</i> activities:'

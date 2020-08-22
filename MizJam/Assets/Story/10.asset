@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
   conversationBlocks:
-  - I have no problem in protecting them, I'll even give'em a <i>tip of the hat</i>
-    for having the brains to create us.
-  - But <b>you</b> always are always putting them on a pedestal, you're no different
-    than <#FF5858><i>Gramps</i></color>.
+  - <emotion=normal>I have no problem in protecting them, I'll even give'em a <i>tip
+    of the hat</i> for having the brains to create us.
+  - But <b>you</b> are always putting them on a pedestal, you're no different than
+    <#FF5858><i>Gramps</i></color>.
   - '<size=10>I on the other hand, could care less</size> <size=8>*shrug*</size>
 
 '
