@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - <size=13>It's exactly like last time! I can't believe it it!</size>
+  - <size=13>It's exactly like last time! I can't believe  it!</size>
   - <size=12>We have to make a decision, time is running out, <#C21EFF>Boss</color>.

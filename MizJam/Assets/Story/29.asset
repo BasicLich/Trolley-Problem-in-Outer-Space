@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - The ship maintains velocity and enters the <i>magnetic nebulae</i>.
-  - All fronts are quiet as the transport vessel sails, swift and unhindered.
+  - <speed=20>The ship maintains velocity and enters the <i>magnetic nebulae</i>.
+  - <speed=20>All fronts are quiet as the transport vessel sails, swift and unhindered.

@@ -18,6 +18,8 @@ MonoBehaviour:
     individually wired</b> chambers, standing at <b>2 feet</b> from each other.
   - Both are built inside special, sealed alloy rooms. This makes it so, in the event
     of a <b>hull breach</b> or other emergency, they can be <b><size=10>locked tight.</size></b>
-  - This <i>"shut-down protocol" is hardwired and can't be tampered by anyone other
-    than the manufacturer.<\n><speed=8><b>That</b><speed=20> is why he is unable
-    of making this decision.
+  - 'This <i>"shut-down protocol" is hardwired and can''t be tampered by anyone other
+    than the manufacturer.
+
+    <speed=8><b>That</b><speed=20> is why he is unable
+    of making this decision.'

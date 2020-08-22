@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - Our shield's capacitors are dropping current very quickly
+  - <speed=20>Our shield's capacitors are dropping current very quickly
   - <emotion=anticipation>This has never happened before I don't get it...
   - If we don't get out of this zone quick we'll be completely defenseless!

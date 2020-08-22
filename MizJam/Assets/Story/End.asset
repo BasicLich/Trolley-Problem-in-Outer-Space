@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - '<emotion=silent>The flames scorched.</n><pause=0.5> The <i>cores''</i> quarrel
-    continued.<\n><pause=0.5> And all the stars in the distance shone just as bright
-    as they always have.
+  - '<emotion=silent><i>The scorching flames roared.
+
+    <pause=0.5>The <i>cores''</i>
+    quarrel persisted.
+
+    <pause=0.5>And the stars in the distance shined just
+    as bright as they always have.</i>
 
     <emotion=fullStop><pause=3><emotion=end>'

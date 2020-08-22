@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
-  - "The initial explosion <b>cracked</b> the glass of chamber n\xBA<i>5</i>."
-  - The moment we engange the vacuum seal to put out the fire<emotion=silent><speed=5>...
+  - "<speed=20>The initial explosion <b>cracked</b> the glass of chamber n\xBA<i>5</i>."
+  - <emotion=silent>The moment we engange the vacuum seal to put out the fire<speed=5>...
     <speed=12>That human subject will <b>suffocate</b><speed=20>

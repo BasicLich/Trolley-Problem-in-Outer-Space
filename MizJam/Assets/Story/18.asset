@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
   conversationBlocks:
-  - Then it won't be as bad as I saw it I guess. <emotion=normal>
+  - '<emotion=normal>Then it won''t be as bad as I saw it I guess. '
   - <b>For the love of all that is sacred,</b> just let me keep the helm and the
     front cameras, it's all I will ever need

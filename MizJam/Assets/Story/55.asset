@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - <size=12>Whoa there hold your horses buddy!</size>
+  - <size=12><speed=20>Whoa there hold your horses buddy!</size>
   - Even <size=13><b>I</b></size> can see through my loathing of the human race and
     admit that it is in our best interest to save <b>as many as we can...</b>
   - Letting the other 4 die when they can be easily saved is <b>nonsense.</b>

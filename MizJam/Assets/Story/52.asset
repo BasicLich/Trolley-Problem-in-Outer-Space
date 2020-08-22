@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - <emotion=tense>But if we do nothing, the whole cabin will go up in flames! <size=12>All
-    <b>5</b> humans will burn up!</size>
+  - <emotion=tenseFast>But if we do nothing, the whole cabin will go up in flames!
+    <size=12>All <b>5</b> humans will burn up!</size>
   - <size=12>If anything we'll be saving the other <b>4</b>, its simple maths.</size>

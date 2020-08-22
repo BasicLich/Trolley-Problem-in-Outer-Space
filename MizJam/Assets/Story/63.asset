@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
   conversationBlocks:
-  - <size=15>Hit it! </n>Save the poor bastards!</size>
+  - "<size=15>Hit it! \nSave the poor bastards!</size>"

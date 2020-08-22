@@ -15,5 +15,5 @@ MonoBehaviour:
   speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
   conversationBlocks:
   - <speed=10><size=12>He can't put it out.</size>
-  - <speed=20>By actively turning on the fire dispersers inside that room, he would
+  - <speed=20>By actively turning putting out the fires inside that room, he would
     be choosing to kill one human in exchange for another 4.

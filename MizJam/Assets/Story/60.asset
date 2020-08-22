@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 5e2c02c61af6dab48b42880a6ded54df, type: 2}
   conversationBlocks:
-  - He does bring up a good point, <b><#2F63FF>Intelligence</b></color>.
+  - <emotion=normal><emotion=tense>He does bring up a good point, <b><#2F63FF>Intelligence</b></color>.
   - <i>Immanuel Kant</i> a famous <i>18th</i> century philosopher, argued that <i>"one
     ought never treat someone as a 'means only.'"
   - This would be the case if the killing of the subject at hand were to <size=11><b>directly</b></size>

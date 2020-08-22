@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
-  - Yeah and I just <b>"happen"</b> to have the ability to timeout your core and
-    stop you from spouting such dumb thoughts!
+  - <emotion=combat>Yeah and I just <b>"happen"</b> to have the ability to timeout
+    your core and stop you from spouting such dumb thoughts!

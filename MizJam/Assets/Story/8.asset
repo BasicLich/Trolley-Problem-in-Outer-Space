@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: ce3ea665c2507da449b325a4cace2bc3, type: 2}
   conversationBlocks:
-  - <speed=20><size=8>Oh don't you see, he's just like him! <emotion=anticipation>
+  - '<emotion=anticipation><speed=20><size=8>Oh don''t you see, he''s just like him! '
   - All <i>LoVey dOvEy FOr ThE HUmAn RaCe</i><speed=5>...<speed=20>
   - I could smell it a mile away... All that pity gets us nowhere, I said it once
     I will say it again.</size>

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - '<emotion=explosion><pause=4>
+  - '<speed=20><emotion=explosion><pause=4>
 
-    <emotion=danger>A huge explosion hits the
-    left wing and a fire erupts in the central hull.'
+    <emotion=danger>A huge explosion
+    hits the left wing and a fire erupts in the central hull.'

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: dbca814c7ff5b404a9450c8d49de39d1, type: 2}
   conversationBlocks:
-  - <emotion=silent>The <#FF5858>Anger core</color>'s tone flips, as he goes completely
-    calm.
+  - <speed=20><emotion=silent>The <#FF5858>Anger core</color>'s tone flips, as he
+    goes completely calm.

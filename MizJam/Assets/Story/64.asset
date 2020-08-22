@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 939979d7e8ec71f4aa785b8b0bb7e093, type: 2}
   conversationBlocks:
-  - <size=16><speed=15>NO! WE CANNOT! WE MUST NOT</size><speed=20>
+  - <size=15><speed=15>NO! WE CANNOT! WE MUST NOT</size>

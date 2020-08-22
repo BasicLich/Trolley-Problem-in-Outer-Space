@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: {fileID: 11400000, guid: 8359f0a75eb481746b0f77631d99978a, type: 2}
   conversationBlocks:
-  - Would we <i>actually</i> be killing him though?
-  - I mean, it's not like we are pulling the trigger on the gun or pushing him off
-    a bridge...
-  - He just <b>happens </b>to be in harms way of the vacuum, we aren't <b>responsible</b>
-    for putting him in this  situation.
+  - <size=11>Would we <i>actually</i> be killing him though?</size>
+  - <size=10>I mean, it's not like we are pulling the trigger on the gun or pushing
+    him off a bridge...</size>
+  - <size=9>He just <b>happens </b>to be in harms way of the vacuum, we aren't <b>responsible</b>
+    for putting him in this  situation.</size>
