@@ -48296,12 +48296,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2e0da7f6d49eedc428b2f58c0d011492, type: 2}
   - {fileID: 11400000, guid: 7c40df6823320bc4a8f924c421206b11, type: 2}
   - {fileID: 11400000, guid: 2bcc62b4dd1a8404f840126df3b82eee, type: 2}
+  - {fileID: 11400000, guid: b72d2c70eb895964a813a18bd5717821, type: 2}
+  - {fileID: 11400000, guid: 7f8cd92f84a0f89479d08d6a39fac915, type: 2}
+  - {fileID: 11400000, guid: 987f86ce3f01c424ea1d2de187d0e991, type: 2}
+  - {fileID: 11400000, guid: 0c2465dd74a674540ab62d608b040dfa, type: 2}
+  - {fileID: 11400000, guid: 5afa012efdce86d4fab49f31c107c1a0, type: 2}
   - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
-  - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
-  - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
-  - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
-  - {fileID: 11400000, guid: 05f2d8de09fadb444af6bde70a535a68, type: 2}
-  dialogueIndex: 20
+  dialogueIndex: 0
   gameOver: 0
 --- !u!82 &1691194657
 AudioSource:
